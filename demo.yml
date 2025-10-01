@@ -9,6 +9,6 @@
       - never
 
     - ansible.builtin.shell:
-      cmd: cat /tmp/readme.txt
+        cmd: cat /tmp/readme.txt
         
   
