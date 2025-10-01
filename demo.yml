@@ -8,4 +8,4 @@
    - name: copie de fichier
      ansible.builtin.copy:
         src: ./test.html
-        dest: /temp/test.html
+        dest: /tmp/test.html
