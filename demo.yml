@@ -1,9 +1,9 @@
 - hosts: all
   tasks:
 
-   - name: est ce que ça fonctionne
+
      ansible.builtin.debug:
-        msg: oui !
+        var: ansible.facts
 
    - name: copie de fichier
      ansible.builtin.copy:
