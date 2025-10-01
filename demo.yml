@@ -2,8 +2,8 @@
   tasks:
 
 
-     ansible.builtin.debug:
-        var: ansible.facts
+   - ansible.builtin.debug:
+        var: ansible_facts
 
    - name: copie de fichier
      ansible.builtin.copy:
